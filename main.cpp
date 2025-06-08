@@ -11,7 +11,7 @@ struct Expense {
     string description;
     
     void display() const {
-        cout << "₹" << amount << " - " << category << " - " << description << endl;
+        cout << "Rs:" << amount << " - " << category << " - " << description << endl;
     }
 };
 
